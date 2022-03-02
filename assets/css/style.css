@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+    font-family: 'Poppins', sans-serif;
+}
+.containerHeader{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    width: 30%;
+    height: auto;
+    border: solid black 1px;
+}
+.Icon{
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.Icon a{
+    color: #212121;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+:root{
+    --hue-color: ; 
+
+    --first-color: ;
+    --first-color-second: ;
+    --first-color-alt: ;
+    --first-color-lighter: ;
+    --title-color: ;
+    --text-color: ;
+    --text-color-light: ;
+    --input-color: ;
+    --body-color: ;
+    --container-color: ;
+
+    /* font and typing */
+    --body-font: ;
+    --big-font-size:;
+    --h1-font-size:;
+    --h2-font-size:;
+    --h3-font-size:;
+    --normal-font-size:;
+    --small-font-size:;
+    --smaller-font-size:;
+
+    /* font weight */
+    --font-medium:;
+    --font-semi-bold:;
+
+    /* margener bottom */
+    /*  */
+    --mb-0-25:;
+    --mb-0-5:;
+    --mb-0-75:;
+    --mb-1:;
+    --mb-1-5:;
+    --mb-2:;
+    --mb-3-5:;
+    --mb-3:;
+
+    /* z-index */
+    --z-tooltip:;
+    --z-fixed:;
+    --z-modal:;
+
+}
+
+/* ukuran font untuk perangkat besar atau PC */
+@media screen and (min-width:965px) {
+    :root{
+        --big-font-size:;
+        --h1-font-size:;
+        --h2-font-size:;
+        --h3-font-size:;
+        --normal-font-size:;
+        --small-font-size:;
+        --smaller-font-size:;
+    }
+}
+
+/* variable dark theme */
+/* button dark /lightv */
+/* base */
+/* reusable CSS classes */
+/* layout */
+/* Nav */
+/* Show menu */
+/* Active Link */
+/* change background Header */
+/* Home */
+/* button */
+/* about */
+/* skills */
+/* qualification */
+/* service */
+/* active modal */
+/* portofolio */
+/* projeck in mind */
+/* testimonial */
+/* contact me */
+/* footer */
+/* scroll up */
+/* show scroll */
+/* scroll bar */
+/* media Queries */
+/* for small device */
+/* for medium devices */
+/* for largae devices */
