@@ -3,7 +3,7 @@ const navMenu=document.getElementById('nav-menu'),
     navToggle=document.getElementById('nav-toggle'),
     navClose=document.getElementById('nav-close')
 
-/*menu show*/ 
+/*menu show*/
 
 /*validate if constant exsist*/ 
 if (navToggle) {
