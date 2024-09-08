@@ -2,7 +2,7 @@ name: Deploy sika to server bahri44
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Sika
