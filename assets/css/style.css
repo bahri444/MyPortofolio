@@ -7,7 +7,7 @@ body {
     --header-height: 3rem;
 
     /*input colors your favorite */
-    --hue-color: 350;
+    --hue-color: 206;
     /*250 */
 
     --first-color: hsl(var(--hue-color), 100%, 50%);
