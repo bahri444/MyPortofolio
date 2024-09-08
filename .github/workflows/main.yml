@@ -1,11 +1,11 @@
-name: Deploy sika to server bahri44
+name: Deploy to server bahri44
 on:
   push:
     branches:
       - main
 jobs:
   FTP-Deploy-Action:
-    name: FTP-Deploy-Sika
+    name: FTP-Deploy-Portofolio
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
